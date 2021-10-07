@@ -1,0 +1,26 @@
+#header img{
+
+    width: 50px;
+
+}
+
+#main img{ 
+    max-height: 80vh;
+    object-fit: cover;
+
+}
+
+.carousel-item h5{
+    color:aliceblue;
+   font-size: 40px;
+   font-weight: bold;
+}
+
+#footer{
+    background: linear-gradient(90deg, #1c3643,#273b47 25%, #1e5372);
+}
+
+#footer p{
+    color: white;
+    text-align: left;
+}
