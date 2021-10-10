@@ -1,4 +1,8 @@
-#header img{
+.body{
+    position: relative;
+}
+
+#navbar img{
    width: 50px;
 }
 
@@ -12,13 +16,14 @@
 }
 
 
-.overlay{
+.overlay {
     position:absolute;
     top:0;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0,0, 0.24);
+   background-color:rgb(69,179,157,0.50);    
+
 }
 
 .carousel-item h5{
@@ -27,9 +32,16 @@
    color: whitesmoke !important;
 }
 
+.carousel-item p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
 .py-5{
     text-align: left;
-    padding: 0;
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+
 }
 
 
@@ -39,48 +51,149 @@
     
 }
 
-#talentoHumano h3{
+.card{
+    border: none;
+
+}
+
+.card img {
+    width: 100px;
+}
+
+
+
+
+.card-text{
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     color:slategrey;
+    text-align:center;
+    font-weight:450; 
+}
+
+
+#socios .card-body{
+    background-color: white;
+}
+
+
+#socios{
+    padding-top: 100px;
+}
+
+#socios .card h5, h6 {
+    text-align: center;
+    
+}
+
+
+#socios .card p {
+    text-align: center;
+    
+}
+
+
+#socios h3 {
+    text-align: center;
+    color: #138D75;
+}
+
+.py-5 #quienesSomos{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 2px solid;
+}
+
+#talentoHumano h3{
+   color: #138D75;
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 
 #talentoHumano p{
-    color:#273b47;
+    color:#45B39D;
+}
+
+#talentoHumano {
+/*    background-color:rgb(138,190,62);*/
+    background-color:#EAFAF1
 }
 
 #liderazgo h3{
-    color: white !important;
+/*    color: white;*/
+    color:#138D75;
 }
 
 #liderazgo p{
-    color:white;
+/*    color:white;*/
+    color:#45B39D;
 
 }
 
 #liderazgo{
-    background-color: rgb(47, 52, 56);
+ /*   background-color: rgb(197,223,155);*/
+/*    background-color:rgb(123,198,167);*/
+background-color: white;
+
 }
 
 
 #coaching p{
-    color:white;
+    color:#45B39D;
 
 }
 
 #coaching h3{
-    color: white !important;
+    color:#138D75
 }
 
 #coaching{
-    background-color: rgb(47, 52, 56);
+    background-color:#EAFAF1
+}
+
+
+#bienestarPersonal{
+    background-color:white;
+
+
+}
+
+#bienestarPersonal p{
+    color:#45B39D;
+
+}
+
+
+
+
+#bienestarPersonal h3{
+    color: #138D75;
+}
+
+#contactanos h3,h4,h6{
+    color: #138D75;
+}
+
+#contactanos label{
+    color: #138D75;
+}
+
+#contactanos .btn{
+    background-color: #138D75;
+    color: white;
 }
 
 #footer{
-    background: linear-gradient(90deg, #1c3643,#273b47 25%, #1e5372);
+    background-color:#138D75;
+    height: 30px;
 }
 
-#footer p{
-    color: white;
-    text-align: left;
-}
+
+
