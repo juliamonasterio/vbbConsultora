@@ -91,10 +91,16 @@
     color:#45B39D;
 }
 
+.accordion-item {
+    border: none;
+}
 
-
-
-
+.accordion-button:not(.collapsed){
+    background-color:#45B39D;
+    color: white;
+    font-weight: bold;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
 
 #footer{
     background-color:#138D75;

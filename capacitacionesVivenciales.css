@@ -1,0 +1,180 @@
+.body{
+    position: relative;
+}
+
+#navbar img{
+   width: 50px;
+}
+
+
+.py-5{
+    text-align: left;
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+
+}
+
+
+.py-5 p,h3,h2{
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin-top: 1rem;  
+     
+}
+
+#capacitaciones h3,h6,p{
+    color: #138D75;
+    text-align: center;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.p-5 h3{
+    font-size: 2rem;
+    color: #138D75;
+    text-align: center;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+#features h3{
+    font-size: 2rem;
+    color: #138D75;
+    text-align: center;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+#features h4{
+    font-size: 1.5rem;
+    color: #138D75;
+    text-align: center;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.card{
+    border: none;
+}
+
+.card img {
+    width: 100px;
+}
+
+.card-text{
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color:slategrey;
+    text-align:center;
+    font-weight:450; 
+}
+
+.py-5 #capacitaciones{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.icon-feature {
+  font-size: 4rem;
+}
+
+.features-device-mockup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.features-device-mockup .circle {
+  position: absolute;
+  left: 0;
+  fill: url(#circleGradient);
+  width: 70%;
+  display: none;
+}
+.features-device-mockup .circle .gradient-start-color {
+  stop-color: #2937f0;
+}
+.features-device-mockup .circle .gradient-end-color {
+  stop-color: #9f1ae2;
+}
+.features-device-mockup .shape-1 {
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  transform: rotate(10deg);
+  fill: #2937f0;
+  top: 15%;
+  right: 10%;
+}
+.features-device-mockup .shape-2 {
+  position: absolute;
+  height: 0.75rem;
+  width: 0.75rem;
+  fill: #2937f0;
+  bottom: 15%;
+  left: 10%;
+}
+.features-device-mockup .device-wrapper {
+  max-width: 10rem;
+}
+
+@media (min-width: 576px) {
+  .features-device-mockup .circle {
+    width: 70%;
+    display: block;
+    left: auto;
+  }
+  .features-device-mockup .device-wrapper {
+    max-width: 12.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .features-device-mockup .circle {
+    width: 60%;
+    left: auto;
+  }
+  .features-device-mockup .device-wrapper {
+    max-width: 15rem;
+  }
+}
+@media (min-width: 992px) {
+  .features-device-mockup .circle {
+    width: 90%;
+    left: -25%;
+  }
+  .features-device-mockup .shape-1 {
+    top: 5%;
+    right: -15%;
+  }
+  .features-device-mockup .shape-2 {
+    bottom: 10%;
+    left: -10%;
+  }
+  .features-device-mockup .device-wrapper {
+    max-width: 15rem;
+    margin-left: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .features-device-mockup .circle {
+    width: 75%;
+    left: 0;
+  }
+  .features-device-mockup .shape-2 {
+    bottom: 15%;
+    left: 10%;
+  }
+  .features-device-mockup .device-wrapper {
+    max-width: 15rem;
+  }
+}
+@media (min-width: 1400px) {
+  .features-device-mockup .circle {
+    width: 80%;
+    left: 0;
+  }
+  .features-device-mockup .device-wrapper {
+    max-width: 17rem;
+  }
+}
+
+#footer{
+    background-color:#138D75;
+    height: 30px;
+}
